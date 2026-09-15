@@ -1,0 +1,48 @@
+img {
+    max-width:100%;
+}
+
+.block {
+    background:lightblue;
+    border:1px solid;
+    padding:10px;
+    margin:10px;
+    width:100px;
+    height:100px;
+}
+
+.inline {
+    background:pink;
+    border:1 px solid;
+    /*margin, padding, width, and height work inconsistently on inline elements and should be avoided when possible */
+}
+
+/* note here*/
+.inline-block {
+    background: yellow;
+    border:1px solid;
+    display:inline-block;
+    margin:20px;
+    padding:20px;
+    width:100;
+    height:100px;
+}
+
+.content-box {
+background:lightpink;
+width: 200px;
+height:200px;
+padding:50px;
+border:10px solid red;
+margin:20px
+}
+
+.boarder-box {
+background:red;
+width: 200px;
+height:200px;
+padding:50px;
+border:10px solid pink;
+margin:20px;
+box-sizing:border-box;
+}
