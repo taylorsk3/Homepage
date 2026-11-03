@@ -1,0 +1,50 @@
+
+* 
+body {
+  background-image: url("zebra1.jpeg");
+  background-size: cover;
+
+}
+
+img { 
+    max-width:100%;
+    animation-name: test;
+    animation-duration:40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    position:relative;
+}
+
+.box {
+    background:pink;
+    width:100px;
+    height:100px;
+}
+
+
+@keyframes test { 
+    0% {
+        top:0;
+        left:0;
+    }
+    20% {
+        top:500px;
+        left:1000px;
+    }
+    40% {
+        top:0px;
+        left:500px;
+    }
+    60% {
+        top:300px;
+        left:0px;
+    }
+    80% {
+        top:500px;
+        left:1000px;
+    }
+    100% {
+        top:0px;
+        right:0px;
+    }
+}
